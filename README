@@ -1,0 +1,33 @@
+This Repo contains some scripts for monitoring an icecast server in zabbix.
+
+
+DEPENDENCIES
+------------
+
+You will need to satisfy the following deps on the monitored System:
+
+- xsltproc from libxslt
+- wget
+
+INSTALLATION
+------------
+
+1) Copy the scripts dir to /usr/local/scripts/zabbix and give zabbix agent executions right on icestats.sh (and read rights on the contents of xslt)
+2) Add UserParameters from userparameters.txt to your zabbix_agentd.conf
+3) Restart zabbix agent
+
+CONFIGURATION
+-------------
+
+You may import Template_App_Icecast.xml as a starting point. The Template contains monitoring for the streams this was written for.
+
+You can use the following keys for monitoring.
+
+- icecast.global.clients
+- icecast.global.client_connections
+- icecast.global.sources
+- icecast.source.listeners[*]
+- icecast.source.slow_listeners[*]
+
+In the icecast.source.* items $1 is the name of an icecast mountpoint
+
