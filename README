@@ -1,5 +1,7 @@
 This Repo contains some scripts for monitoring an icecast server in zabbix.
 
+This Repo has been downloaded from https://github.com/hecko/zabbix-icecast
+
 
 DEPENDENCIES
 ------------
