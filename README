@@ -15,9 +15,14 @@ sudo apt-get install xsltproc wget
 INSTALLATION
 ------------
 
-1) Copy the scripts dir to /usr/local/scripts/zabbix and give zabbix agent executions right on icestats.sh (and read rights on the contents of xslt)
-2) Add UserParameters from userparameters.txt to your zabbix_agentd.conf
-3) Restart zabbix agent
+- Copy the scripts dir to /usr/local/scripts/zabbix and give executions right on icestats.sh to zabbix user 
+Example: chown zabbix:zabbix icestats.sh; chmod u+x icestats.sh
+
+- Change configuration in icestats.conf.example to suit your needs and rename the file to icestats.conf
+
+- Add UserParameters from userparameters.txt to your zabbix_agentd.conf
+
+- Restart zabbix agent
 
 CONFIGURATION
 -------------
@@ -32,5 +37,5 @@ You can use the following keys for monitoring.
 - icecast.source.listeners[*]
 - icecast.source.slow_listeners[*]
 
-In the icecast.source.* items $1 is the name of an icecast mountpoint
+In the icecast.source.* items first parameter ($1) is the name of an icecast mountpoint
 

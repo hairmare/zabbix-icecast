@@ -1,0 +1,6 @@
+#!/bin/bash
+
+STATS_URL=http://stream-01.hq.rabe.ch:8000/admin/stats.xml
+STATS_TMP='/tmp/zabbix-icecast-stats.xml'
+HTTP_USER='admin'
+HTTP_PASSWORD='test'

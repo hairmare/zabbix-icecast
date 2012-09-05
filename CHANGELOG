@@ -1,0 +1,4 @@
+5th of Sept 2012 - Marcel Hecko
+- added username/password support for reading status.xml file from IceCast2 admin interface
+- moved config from main script file into separate file
+- updated documentation accordingly

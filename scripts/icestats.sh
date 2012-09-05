@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # grab data from zabbix stats url
 #
@@ -7,6 +7,7 @@
 # subdir. 
 #
 # Copyright - 2010 - Lucas Bickel for Radio RaBe
+# Copyright - 2012 - Marcel Hecko for SHMU FM
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -22,10 +23,6 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
-# CONFIG
-STATS_URL=http://stream-01.hq.rabe.ch:8000/admin/stats.xml
-STATS_TMP='/tmp/zabbix-icecast-stats.xml'
-
 # load a stats dump from icecast
 function load_stats {
 
@@ -33,7 +30,7 @@ function load_stats {
 	max_age=$((`date +%s` - 30))
 	
 	if [[ `stat -c %Y $STATS_TMP` -lt $max_age ]]; then
-		wget -q $STATS_URL -O $STATS_TMP
+		wget -q $STATS_URL -O $STATS_TMP --http-user=$HTTP_USER --http-password=$HTTP_PASSWORD
 	fi
 }
 
