@@ -1,5 +1,8 @@
 This Repo contains some scripts for monitoring an icecast server in zabbix.
 
+Architected and coded by Lucas Bickel, extended and adopted by Marcel Hecko
+
+
 This Repo has been downloaded from https://github.com/hecko/zabbix-icecast
 
 
