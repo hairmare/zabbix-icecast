@@ -10,7 +10,7 @@ You will need to satisfy the following deps on the monitored System:
 - wget
 
 For Ubuntu do the following:
-sudo apt-get install apt-get install xsltproc wget
+sudo apt-get install xsltproc wget
 
 INSTALLATION
 ------------
