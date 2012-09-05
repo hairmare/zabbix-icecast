@@ -23,6 +23,8 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
+. /usr/local/scripts/zabbix/icestats.conf
+
 # load a stats dump from icecast
 function load_stats {
 
