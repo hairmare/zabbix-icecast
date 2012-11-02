@@ -3,7 +3,7 @@ This Repo contains some scripts for monitoring an icecast server in zabbix.
 Architected and coded by Lucas Bickel, extended and adopted by Marcel Hecko
 
 
-This Repo has been downloaded from https://github.com/hecko/zabbix-icecast
+This Repo has been downloaded from https://github.com/hairmare/zabbix-icecast
 
 
 DEPENDENCIES
@@ -42,5 +42,5 @@ You can use the following keys for monitoring.
 - icecast.source.listeners[*]
 - icecast.source.slow_listeners[*]
 
-In the icecast.source.* items first parameter ($1) is the name of an icecast mountpoint
+In the icecast.source.* items the first parameter ($1) is the name of an icecast mountpoint
 
