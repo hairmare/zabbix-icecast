@@ -40,7 +40,7 @@
         <trigger>
           <description>Icecast not running</description>
           <type>0</type>
-          <expression>{Template_App_Icecast:proc.num[icecast].last(0)}&lt;1</expression>
+          <expression>{Template_App_Icecast:proc.num[icecast2].last(0)}&lt;1</expression>
           <url></url>
           <status>0</status>
           <priority>4</priority>
