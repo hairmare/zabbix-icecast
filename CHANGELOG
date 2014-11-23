@@ -1,3 +1,7 @@
+24 November 2014
+- change process name to be monitored to icecast2
+- rewrite README to markdown
+
 5th of Sept 2012 - Marcel Hecko
 - added username/password support for reading status.xml file from IceCast2 admin interface
 - moved config from main script file into separate file
