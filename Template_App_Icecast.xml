@@ -345,7 +345,7 @@
             <application>Icecast</application>
           </applications>
         </item>
-        <item type="7" key="proc.num[icecast]" value_type="3">
+        <item type="7" key="proc.num[icecast2]" value_type="3">
           <description>Number of running processes icecast</description>
           <ipmi_sensor></ipmi_sensor>
           <delay>30</delay>
