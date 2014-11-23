@@ -40,6 +40,6 @@ In the ``icecast.source.*`` items the first parameter ($1) is the name of an ice
 
 ## Contributors
 
-* [https://github.com/hairmare Lucas Bickel]
-* [https://github.com/hecko Marcel Hecko]
-* [https://github.com/zetneteork Lukáš Vikto]
+* [Lucas Bickel](https://github.com/hairmare)
+* [Marcel Hecko](https://github.com/hecko)
+* [Lukáš Viktora](https://github.com/zetneteork)
