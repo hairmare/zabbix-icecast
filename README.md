@@ -10,7 +10,8 @@ You will need to satisfy the following deps on the monitored System:
 - wget
 
 For Ubuntu do the following:
-sudo apt-get install xsltproc wget
+
+``sudo apt-get install xsltproc wget``
 
 ## Installation
 
@@ -35,7 +36,7 @@ You can use the following keys for monitoring.
 * ``icecast.source.listeners[*]``
 * ``icecast.source.slow_listeners[*]``
 
-``In the icecast.source.*`` items the first parameter ($1) is the name of an icecast mountpoint
+In the ``icecast.source.*`` items the first parameter ($1) is the name of an icecast mountpoint
 
 ## Contributors
 
