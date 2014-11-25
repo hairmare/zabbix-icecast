@@ -3,5 +3,6 @@ UserParameter=icecast.global.clients,/usr/local/scripts/zabbix/icestats.sh clien
 UserParameter=icecast.global.client_connections,/usr/local/scripts/zabbix/icestats.sh client_connections
 UserParameter=icecast.global.sources,/usr/local/scripts/zabbix/icestats.sh sources
 UserParameter=icecast.source.listeners[*],/usr/local/scripts/zabbix/icestats.sh mount-listeners $1
+UserParameter=icecast.source.peak_listeners[*],/usr/local/scripts/zabbix/icestats.sh peak-listeners $1
 UserParameter=icecast.source.slow_listeners[*],/usr/local/scripts/zabbix/icestats.sh mount-slow_listeners $1
 
